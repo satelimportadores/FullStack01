@@ -6,6 +6,8 @@ const path = require('path');
 
 //Inicializar
 const app = express();
+    //iniciarlizar la base de datos
+    require('./database');
 
 
 //Configuraciones

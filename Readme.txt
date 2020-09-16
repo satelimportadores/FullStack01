@@ -11,3 +11,11 @@ Correr el servidor:
     npx nodemon backend/index.js
     o creando el script "dev": "npx nodemon backend/index.js"
     npm run dev
+
+Iniciar servidor de mongoose
+    cd C:\Program Files\MongoDB\Server\3.6\bin
+    mongod.exe --dbpath D:\mongodb\data\db
+    
+    Abrir shell mongo
+        cd C:\Program Files\MongoDB\Server\3.6\bin
+        mongo
