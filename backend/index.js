@@ -1,7 +1,17 @@
+//Para leer variables de entorno .env
+if (process.env.NODE_ENV !== 'production') {
+    require ('dotenv').config();
+}
+//Mirar si estamos en modo desarrolador o produccion
+//console.log(process.env.NODE_ENV);
+
+
+
 const express = require('express');
 const morgan = require('morgan');
 const multer = require('multer');
 const path = require('path');
+
 
 
 //Inicializar
@@ -11,7 +21,7 @@ const app = express();
 
 
 //Configuraciones
-app.set('port',3000);
+app.set('port',process.env.PORT || 3000);
 
 //Middleware
 app.use(morgan('dev'));
