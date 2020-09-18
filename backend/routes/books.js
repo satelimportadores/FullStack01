@@ -16,9 +16,13 @@ router.get('/',async(req,res)=>{
 
 //Agregar un nuevo libro
 router.post('/',async(req,res)=>{
- //console.log(req.body);
+ console.log(req.body);
+ console.log(req.file);
+ //las imagenes o archivos llegan por req.file
+    const imagePath = '/uploads/'+req.file.filename;
     const {title,author,isbn} = req.body;
-    const newBook = new Book({title,author,isbn});
+    //los items se deben llamar igual que en el modelo models/Book.js
+    const newBook = new Book({title,author,isbn,imagePath});
         //Guardar el libro
             //console.log(newBook);
             await newBook.save();

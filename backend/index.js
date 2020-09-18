@@ -11,6 +11,9 @@ const express = require('express');
 const morgan = require('morgan');
 const multer = require('multer');
 const path = require('path');
+//trabajar entro dos servidores:
+const cors = require('cors');
+
 
 
 
@@ -40,6 +43,9 @@ app.use(express.urlencoded({extended: false}));
 
     //enviar peticiones JSON
 app.use(express.json());
+
+    //Utilizar cors
+app.use(cors());    
 
 //Routes
 app.use('/api/books',require('./routes/books'));

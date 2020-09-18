@@ -29,7 +29,7 @@ module.exports ={
         new HtmlwebpackPlugin({
             template: './frontend/index.html',
         minify:{
-            collapseWhitespace: true,
+            //collapseWhitespace: false,
             removeComments:true,
             removeRedundantAttributes: true,
             removeScriptTypeAttributes: true,
