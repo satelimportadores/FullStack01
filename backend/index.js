@@ -44,7 +44,7 @@ app.use(express.json());
 //Routes
 app.use('/api/books',require('./routes/books'));
 
-//Static Files
+//Static File
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Iniciar el servidor

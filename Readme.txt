@@ -38,3 +38,14 @@ Webpack toma todos los archivos js los reduce  y los deja para producción.
 
 instalacion de dependencias de desarrollo:
 npm i -D webpack webpack-cli html-webpack-plugin css-loader style-loader mini-css-extract-plugin webpack-dev-server timeago.js
+
+Configuracion webpack
+    webpack.config.js
+    //correr el servidor
+    npx webpack
+        //http://127.0.0.1:3000/bundle.js
+        //http://127.0.0.1:3000/
+
+    estableser webpack en modo desarrollo o producción:
+     se agrega a scripts de package.json "npx cross-env NODE_ENV=production webpack"
+    npm run build
