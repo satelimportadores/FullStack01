@@ -1,3 +1,6 @@
+Javascript FullStack
+https://www.youtube.com/watch?v=Fs1G1BcP4BI&list=PLo5lAe9kQrwq7n_REwpZdfggPCBW2ggnh
+
 Iniciar el proyecto
     npm -version
     npm init -y
