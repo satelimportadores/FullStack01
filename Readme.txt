@@ -19,3 +19,11 @@ Iniciar servidor de mongoose
     Abrir shell mongo
         cd C:\Program Files\MongoDB\Server\3.6\bin
         mongo
+
+Programa que emula ser una aplicacion cliente POSTMAN 
+    Header content/type JSON - Body JSON
+    {
+        "title" : "I robot",
+        "author" :"Isaac Robin",
+        "isbn": "Test"
+    }
