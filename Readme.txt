@@ -49,3 +49,15 @@ Configuracion webpack
     estableser webpack en modo desarrollo o producción:
      se agrega a scripts de package.json "npx cross-env NODE_ENV=production webpack"
     npm run build
+    para no correr webpack cada vez que hagamos un cambio se cre un script nuevo en package.json
+    npm run server:dev
+        creara un servidor en el puerto 8080
+
+
+Cargar estilos CSS bootrap 4
+https://getbootstrap.com/docs/4.5/getting-started/introduction/
+animate CSS
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
+    Cargar boostrap con colores distintos
+    https://bootswatch.com/
+
