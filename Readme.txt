@@ -32,3 +32,9 @@ Programa que emula ser una aplicacion cliente POSTMAN
     }
 
 ----------//Inicio Frontend//----------
+Webpack toma todos los archivos js los reduce  y los deja para producción.
+
+//instalar dependencias para el Frontend
+
+instalacion de dependencias de desarrollo:
+npm i -D webpack webpack-cli html-webpack-plugin css-loader style-loader mini-css-extract-plugin webpack-dev-server timeago.js
